@@ -1,34 +1,39 @@
-What happens when you initialize a repository? Why do you need to do it?
+1)What happens when you initialize a repository? Why do you need to do it?
 
 When a repository is initialized, a .git file was created.  I need to initialize 
 a repository so that the repository is tied to the directory where I run th git init
 command.  Only the files from this particular directory will be associated with
 the repository that I just created.
 
-How is the staging area different from the working directory and the repository?
+2)How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 Staging area is intermediate between the working directory and the repository.  It
 allows us to select which file(s) we want to commit.  This allows us to have a better
 control of the repository.
 
-How can you use the staging area to make sure you have one commit per logical
+3)How can you use the staging area to make sure you have one commit per logical
 change?
 
 We can use git diff (no argument) to compare files in the working directory and 
 the staging area. And we can use git diff --staged to compare files in staging
 area and repository to ensure we have one commit per logical change.
 
-What are some situations when branches would be helpful in keeping your history
+4)What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
 When I want to try something on the files but do not want to affect the master
-files, it's good to use branch.
+files, it's good to use branch.  Or when there is more than one person working
+on the same file, it's easier to have a separate branch for each individual's work.
 
-How do the diagrams help you visualize the branch structure?
+5)How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
+The diagram helps visualize the sequence of each commit and the number of branches
+currently in the repository.  It can guide me through whether I want to combine some
+of the commits to the master, or if I want to isolate the branch that I wanted to.
+
+6)What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+7)What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
