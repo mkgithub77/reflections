@@ -35,5 +35,9 @@ of the commits to the master, or if I want to isolate the branch that I wanted t
 6)What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The two diverged files somehow need to come back together again so that we have one
+master file for all the codes.  We don't have to maintain that many branches while we
+still have access to all the commits where the deleted label carries.
+
 7)What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
