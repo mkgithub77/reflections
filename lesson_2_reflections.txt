@@ -41,3 +41,9 @@ still have access to all the commits where the deleted label carries.
 
 7)What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+The pros of having automatic merging is we don't have to manual check each line of code.
+However, if there is more than one person checked out the files and making changes to
+the same part of the file, manual merging is the only way we know which part of the code
+as well as whose code should be in the commit.  Auto merging cannot determine which one
+should be in and which one should be out properly.
