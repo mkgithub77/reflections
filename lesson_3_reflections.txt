@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+If I need to work with other developer over a project, it is better and easier to have a centrol processing hub for the code management.  We could check out files and work on our own and then merge them together at a later date.  
+
