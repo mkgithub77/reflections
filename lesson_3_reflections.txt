@@ -1,4 +1,8 @@
-When would you want to use a remote repository rather than keeping all your work local?
+1) When would you want to use a remote repository rather than keeping all your work local?
 
 If I need to work with other developer over a project, it is better and easier to have a centrol processing hub for the code management.  We could check out files and work on our own and then merge them together at a later date.  
+
+2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+I would probably know better which file I like to work on and when I want to have a logical commit to the content.  If I have Git automatically stay up-to-date with the remote repository, it will be more difficult when I need to merge my changes with others.
 
