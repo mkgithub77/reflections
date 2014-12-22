@@ -6,3 +6,13 @@ If I need to work with other developer over a project, it is better and easier t
 
 I would probably know better which file I like to work on and when I want to have a logical commit to the content.  If I have Git automatically stay up-to-date with the remote repository, it will be more difficult when I need to merge my changes with others.
 
+3) Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+
+Forking is cloning a repository on gitHub to gitHub.  We use forking when we cannot change a respository of someone else's.  
+
+Cloning is taking existing repository and make an exact copy of it.  The original repository can either be
+local or remote.  Whatever we do on the clone will not affect the repository we cloned from.
+
+Branching is the creation of one single repository.  We basically use branching when we work locally so that we can
+try on various things based on the master branch, but without affecting the main branch.  When we have new ideas we can
+merging them with the master branch at a logical point of time.
