@@ -25,3 +25,8 @@ We can use "git pull origin master" command to fetch the origin and then merge t
 
 It would be easier if I'm working on my own files and no one else needs to make changes on my files.  That way I don't need to pull and push files frequently in order to have other people's updated files, and acknowledge other people about my change on the files.  However, when a group of people are working together on the same set of files, Git or GitHub will help a lot in updating the files as well as merging any files if that's necessary.  This would make the flow of coding environment a lot easier on collaboration work.
 
+6) When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+
+When I want to try new thing but not sure if the code will work successfully, or if there is anything that is more experimental, I'll make changes in a separate branch to preserve the purity of the master branch.  This can ensure the master branch is always in good shape and not prone to experimental error.
+
+To work directly on the master branch had the benefit of minimizing the need to pull, push and merge data in order to make availability of the most updated code to everyone.
